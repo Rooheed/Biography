@@ -1,0 +1,321 @@
+@charset "UTF-8";
+/* RESET */
+/* ----------------------------------------- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+/* LAYOUT */
+/* ----------------------------------------- */
+
+body {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	background-color: #e1e0db;
+	background-repeat: repeat;
+	font-size:13px;
+	line-height: 17px;
+	color:#000;
+}
+
+#wrapper {
+	width:969px;
+	margin:0 auto;
+	margin-top:60px;
+	margin-bottom:100px;
+}
+
+.wrapper-top {
+	width:969px;
+	height:19px;
+	margin:0 auto;
+	background-color:;
+	background-repeat:no-repeat;
+}
+
+
+/* PAPER BACKGROUND */
+/* ----------------------------------------- */
+
+#paper-mid {
+	width:828px;
+	margin:0 auto;
+	background-color: #fff;
+	background-repeat:repeat-y;
+	display:block;
+	padding:0;
+	overflow: hidden;
+	padding-bottom:75px;
+	padding-top:7px;
+}
+
+
+/* ENTRIES */
+/* ----------------------------------------- */
+
+.entry {
+	width:720px;
+	display: block;
+	padding-top:55px;
+	clear: both;
+	margin-left:4px;
+	
+}
+
+h1  {
+	width:250px;
+	font-size:30px;
+	color:#51383b;
+	margin-bottom:3px;
+	clear:both;
+	
+}
+
+h1 span {
+	font-size:21px;
+	display:block;
+	color:#51383b;
+	margin-top:20px;
+}
+
+h2 {
+	width:180px;
+	height: 23px;
+	text-align: right;
+	float:left;
+	padding:0;
+	margin:0;
+	clear:both;
+	font-size:22px;
+	color:#51383b;
+	margin-bottom:-12px;
+	
+}
+
+p {
+	width:500px;
+	margin-left:40px;
+	float:right;	
+}
+
+p img {
+	float:right;
+	margin-left:20px;
+	padding-left:10px;
+}
+
+div.content {
+	clear: both;
+	padding:0;
+	margin:0;
+	overflow: hidden;
+	display:block;
+	padding-top:32px;
+}
+
+h3 {
+	width:180px;
+	text-align: right;
+	float:left;
+	padding:0;
+	clear:both;
+	font-size: 13px;
+	color:#7d6a6c;
+}
+
+h4 {
+	width:180px;
+	text-align: right;
+	float:left;
+	padding:0;
+	clear:both;
+	font-size: 11px;
+	color:#7d6a6c;
+}
+
+h5 {
+	width:180px;
+	text-align: right;
+	float:left;
+	padding:0;
+	clear:both;
+	font-size: 10px;
+	color:#7d6a6c;
+}
+
+h6 {
+	width:180px;
+	text-align: right;
+	float:left;
+	padding:0;
+	clear:both;
+	font-size: 9px;
+	color:#7d6a6c;
+}
+
+ul.info {
+	float:right;
+	width:500px;
+	margin-left:40px;
+	list-style-type: none; 
+}
+
+ul.info li {
+	margin:0;
+	padding:0;
+	float:left;
+	display: block;
+	width:500px;
+	background-image:url(../images/bullet.gif);
+	background-repeat: no-repeat;
+	padding-left:10px;
+	background-position: 0 .5em;
+	margin-top:12px;
+}
+
+ul.skills {
+	margin:0;
+	padding:0;
+	float:right;
+	width:500px;
+	margin-left:40px;
+	margin-top:-6px;
+	list-style-type: none;
+	
+}
+
+ul.skills li {
+	margin:0;
+	padding:0;
+	float:left;
+	width:156px;
+	background-image:url(../images/bullet.gif);
+	background-repeat: no-repeat;
+	padding-left:10px;
+	background-position: 0 .5em;
+	margin-top:6px;
+}
+
+ul.works {
+	margin:0;
+	padding:0;
+	float:right;
+	width:500px;
+	margin-left:40px;
+	list-style-type: none;
+}
+
+ul.works li {
+	margin:0;
+	padding:0;
+	float:left;
+}
+
+ul.works li img {
+	padding:4px;
+	background-color:#fff;
+	width:95px;
+	height:95px;
+	border:1px solid #beb4b5;
+	margin-right:20px;
+	margin-bottom:16px;
+}
+
+ul.works li img:hover {
+	border:1px solid #51383b;
+	cursor: pointer;
+}
+
+img.portrait {
+	margin-top:-35px;
+	background-repeat: no-repeat;
+	width:200px;
+	height:200px;
+	padding-top:20px;
+	padding-left:11px;
+	padding-right:11px;
+	padding-bottom:36px;
+	margin-left:50px;
+	float:left;
+	
+}
+
+/* SELF INFORMATION */
+/* ----------------------------------------- */
+
+.self {
+	width:250px;
+	float:left;
+	padding-top:20px;
+	margin-left:38px;
+	margin-bottom:15px;
+	
+}
+
+.self ul {
+	padding-top: 10px;
+}
+
+.self ul li.ad {
+	background-image:url(../images/icn-ad.gif);
+}
+
+.self ul li.mail {
+	background-image:url(../images/icn-mail.gif);
+}
+
+.self ul li.tel {
+	background-image:url(../images/icn-tel.gif);
+}
+
+.self ul li.web {
+	background-image:url(../images/icn-web.gif);
+}
+
+.self ul li {
+	background-repeat: no-repeat;
+	padding-left:26px;
+	background-position: 0 .1em;
+	height:25px;
+	display:block;
+	margin-top:-2px;
+}
+
+/* SOCIAL ICONS */
+/* ----------------------------------------- */
+
+.social {
+	width:135px;
+	float:right;
+	padding-top:20px;
+	
+}
+
+.social ul {
+	list-style: none;
+}
+
+.social ul li {
+	float:left;
+	width:21px;
+	height:24px;
+	margin:0;
+	padding:0;
+	margin-left:6px;
+}
+
+
